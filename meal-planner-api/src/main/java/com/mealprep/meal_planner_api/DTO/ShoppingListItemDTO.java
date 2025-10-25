@@ -1,8 +1,9 @@
 package com.mealprep.meal_planner_api.DTO;
 
-// Este "record" es un POJO inmutable. Perfecto para un DTO.
+import java.math.BigDecimal;
+
 public record ShoppingListItemDTO(
     String name,
-    Double totalQuantity,
+    BigDecimal totalQuantity,
     String unit
 ) {}

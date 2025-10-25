@@ -1,5 +1,7 @@
 package com.mealprep.meal_planner_api.entity;
 
+import java.math.BigDecimal;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -18,7 +20,7 @@ public class RecipeIngredient {
     private IngredientsMaster ingredientMaster;
     
     private String displayText;
-    private Double normalizedQuantity;
+    private BigDecimal normalizedQuantity;
     private String normalizedUnit;
     
     // Constructores, Getters y Setters
