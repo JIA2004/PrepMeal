@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.app-container {
+    display: flex;
+    padding: 20px;
+}
+.sidebar {
+    width: 30%;
+    background: #fff;
+    padding: 10px;
+    height: 80vh;
+    overflow-y: auto;
+}
+.main-content {
+    width: 70%;
+    padding: 10px 20px;
+}
+.recipe-item {
+    padding: 10px;
+    margin: 5px 0;
+    background: #efefef;
+    cursor: pointer;
+}
+.recipe-item:hover {
+    background: #ddd;
+}
+.planner-item {
+    font-size: 1.1em;
+    padding: 5px;
+}
+.generate-button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.shopping-list ul {
+    background: #fff;
+    padding: 15px;
+}
+
+.planner-item {
+    font-size: 1.1em;
+    padding: 8px;
+    background-color: #e0f0e0; /* Un color verde claro */
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.planner-item:hover {
+    background: #f0e0e0; /* Color rojo claro al pasar el mouse */
+    cursor: pointer;
+    text-decoration: line-through;
+}

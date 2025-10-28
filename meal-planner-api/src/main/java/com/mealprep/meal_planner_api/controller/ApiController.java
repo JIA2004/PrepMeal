@@ -8,6 +8,7 @@ import com.mealprep.meal_planner_api.service.ShoppingListService;
 
 import java.util.List;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/v1") // Prefijo para nuestra API
 public class ApiController {
