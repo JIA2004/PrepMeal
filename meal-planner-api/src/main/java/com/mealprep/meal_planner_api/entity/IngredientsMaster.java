@@ -1,7 +1,9 @@
 package com.mealprep.meal_planner_api.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "ingredients_master")
 public class IngredientsMaster {

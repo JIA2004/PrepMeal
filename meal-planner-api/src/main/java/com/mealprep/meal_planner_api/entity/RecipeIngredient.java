@@ -1,9 +1,10 @@
 package com.mealprep.meal_planner_api.entity;
 
 import java.math.BigDecimal;
-
+import lombok.Data;
 import jakarta.persistence.*;
 
+@Data
 @Entity
 @Table(name = "recipe_ingredients")
 public class RecipeIngredient {
