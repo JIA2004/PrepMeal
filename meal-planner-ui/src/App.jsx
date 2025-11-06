@@ -25,6 +25,7 @@ function App() {
     <div className="app-container">
       <aside className="sidebar">
         {/* ... (código de RecipeList) ... */}
+        <RecipeList onRecipeSelect={addRecipeToPlanner} />
       </aside>
 
       <main className="main-content">
