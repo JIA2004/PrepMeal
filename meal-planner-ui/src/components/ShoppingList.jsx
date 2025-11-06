@@ -22,7 +22,7 @@ function ShoppingList({ recipesInPlan }) {
 
         try {
         // 3. Llamar a tu API POST (el corazón del MVP)
-        const response = await fetch('http://localhost:8080/api/v1/shopping-list', {
+        const response = await fetch('https://plately-6wpn.onrender.com/api/v1/shopping-list', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
