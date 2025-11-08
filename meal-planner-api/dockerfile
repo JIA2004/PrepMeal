@@ -1,6 +1,6 @@
 # ----- Fase 1: Construcción (Build) -----
 # Usamos una imagen de Maven con Java 17 para compilar nuestro código
-FROM maven:3.8-jdk-17 AS build
+FROM maven:3.9-jdk-17 AS build
 
 # Establecemos el directorio de trabajo dentro del contenedor
 WORKDIR /app
